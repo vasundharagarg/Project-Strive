@@ -1,0 +1,189 @@
+/*paper setter css stylesheet/*basic resets*/
+html,body,div,a,span,li,ul
+{
+  padding: 0%;
+  margin: 0%;
+}
+
+body
+{
+  background: #fff;
+  font-family: calibri;
+}
+
+/*main div containing all the stuff on page*/
+.wrapper
+{
+  margin: 0% auto;
+  width: 100%;
+}
+
+/*the main heading of the page*/
+header
+{
+  margin: 0% auto;
+  width: 100%;
+  font-size: 1.7em;
+  text-align: center;
+  background: #3e3e3e;
+  color: #fff;
+  padding: 0.5%;
+  box-shadow: 0 4px 4px -3px #bbb;
+}
+
+/*the main content of the page*/
+.content
+{
+  margin: 0% auto;
+  width: 90%;
+  margin-bottom: 5%;
+}
+
+/*div in which all things remain in center*/
+.center
+{
+  text-align: center;
+  margin: 0% auto;
+}
+
+/*class containing all buttons*/
+.buttons
+{
+  color: #fff;
+  border-radius: 3px;
+}
+/****************************/
+/*div containing space for success or error messages and the link to the next classify page*/
+.next
+{
+  margin: 0% auto;
+  width: 50%;
+  text-align: center;
+}
+
+/*link to the next classification page*/
+#next-button
+{
+  margin: 2% auto;
+  padding: 1.5%;
+  background: #93476e;
+  border: 1px solid #864064;
+  transition-duration: 0.2s;
+}
+
+#next-button:hover
+{
+  cursor: pointer;
+  background: #864064;
+}
+
+/*div taking input of the paper details*/
+.paperdetails-div
+{
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  margin: 2% auto;
+  width: 50%;
+  padding: 1%;
+}
+
+/*ul containing the li for paper details input*/
+.paperdetails-ul,.next-ul
+{
+  list-style: none;
+}
+
+/*li containing input fields for paper details*/
+.paperdetails-li,.next-li
+{
+  display: list-item;
+  margin: 2%;
+}
+
+/*div in which each individual subject is contained*/
+.subject-div
+{
+  margin: 3% auto;
+  padding: 2%;
+  width: 90%;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+/*heading of each subject*/
+.subject-heading
+{
+  float: left;
+  text-align: left;
+  font-size: 1.2em;
+  margin: 0% auto;
+  margin-bottom: 3%;
+  padding: 0.5%;
+  background: #465469;
+  color: #fff;
+  width: 100%;
+}
+
+
+/*containing the checkboxes for choosing topics in each subject*/
+.subject-ul
+{
+  list-style: none;
+}
+
+/*individual checkbox for choosing topic*/
+.topic-li
+{
+  display: inline-block;
+  margin: 1%;
+}
+
+/*all input fields to take data*/
+.input-fields
+{
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #cfcfcf;
+  padding: 1%;
+}
+
+/*containing the submission buttons*/
+.submit-div
+{
+  margin: 0% auto;
+  width: 50%;
+}
+
+.submit-ul
+{
+  list-style: none;
+}
+/*button for uploading file*/
+#file-input
+{
+  border: 1px solid #e8e8e8;
+  padding: 1%;
+}
+
+.submit-li
+{
+  margin: 1%;
+  display: list-item;
+}
+
+/*data submission button at the end of the form*/
+#upload
+{
+  margin: 3% auto;
+  border:1px solid #b93232;
+  padding: 1.5%;
+  background: #b93232;
+  transition-duration: 0.2s;
+}
+
+#upload:hover
+{
+  cursor: pointer;
+  background: #a12828;
+}
